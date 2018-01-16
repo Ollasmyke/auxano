@@ -12,68 +12,49 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap/css/mdb.css">
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,800,800i" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/custom_auxano.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 <body>
 
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <img src="img/ast.png" style="max-width: 50px; max-height: 50px" /> &nbsp; &nbsp;
-        <a class="navbar-brand js-scroll-trigger" href="index.html">AUXANO SOLUTIONS TECHNOLOGY</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">AUXANO SOLUTIONS TECHNOLOGY</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Find Us</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                <!--Portfolio-->
-              <!--</a>-->
-              <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">-->
-                <!--<a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>-->
-                <!--<a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>-->
-                <!--<a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>-->
-                <!--<a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>-->
-                <!--<a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>-->
-              <!--</div>-->
-            <!--</li>-->
-            <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                <!--Blog-->
-              <!--</a>-->
-              <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">-->
-                <!--<a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>-->
-                <!--<a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>-->
-                <!--<a class="dropdown-item" href="blog-post.html">Blog Post</a>-->
-              <!--</div>-->
-            <!--</li>-->
-            <!--<li class="nav-item dropdown">-->
-              <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-                <!--Other Pages-->
-              <!--</a>-->
-              <!--<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">-->
-                <!--<a class="dropdown-item" href="full-width.html">Full Width Page</a>-->
-                <!--<a class="dropdown-item" href="sidebar.html">Sidebar Page</a>-->
-                <!--<a class="dropdown-item" href="faq.html">FAQ</a>-->
-                <!--<a class="dropdown-item" href="404.html">404</a>-->
-                <!--<a class="dropdown-item" href="pricing.html">Pricing Table</a>-->
-              <!--</div>-->
-            <!--</li>-->
           </ul>
         </div>
       </div>
@@ -98,8 +79,14 @@
         <div class="col-lg-6">
           <article>
           <h3>THE COMPANY</h3>
-          <p > Auxano Solutions Technology is a reputable firm in the provision of Information Technology Services to small, medium and large scale organizations. We provide our clients with total solutions for their IT needs with sales of IT equipment and deployment of various services such as Voice solutions, Network design and implementation, Hardware, Security and other value added services.
-          <p>We are known for high quality and reliable Technological and communication services that are costeffective, best practice and meet our customers' requirements based on business needs. We are service minded and motivated by customers' satisfaction. We have mobilized the best skills required to support the IT Solution services we offer. Auxano Solutions Technology’s strength is not only in its vision but also implementation of skills and quality of service.</p>
+          <p > Auxano Solutions Technology is a reputable firm in the provision of Information Technology Services to small,
+            medium and large scale organizations. We provide our clients with total solutions for their IT needs with sales of IT
+            equipment and deployment of various services such as Voice solutions, Network design and implementation, Hardware,
+            Security and other value added services.
+          <p>We are known for high quality and reliable Technological and communication services that are costeffective, best
+            practice and meet our customers' requirements based on business needs. We are service minded and motivated by customers' satisfaction.
+            We have mobilized the best skills required to support the IT Solution services we offer. Auxano Solutions Technology’s strength is not
+            only in its vision but also implementation of skills and quality of service.</p>
           <p>Our service orientation and commitments to our customers have made us a key player in all the Services we render.</p>
           </article>
         </div>
@@ -112,60 +99,62 @@
 
           <!-- Nav tabs -->
           <div class="container">
-            <ul class="nav nav-tabs">
-              <li class="active"><a data-toggle="tab" href="#mission"><img src="img/skmenubg.png" onclick="this.src='img/skmenubgh.png';" onmouseover="this.src='img/skmenubgh.png';" onmouseout="this.src='img/skmenubg.png';" alt=""><span class="centered">OUR MISSION</span></a></li>
-              <li><a href="#vision" data-toggle="tab"><img src="img/skmenubg.png" onclick="this.src='img/skmenubgh.png';" onmouseover="this.src='img/skmenubgh.png';" onmouseout="this.src='img/skmenubg.png';" alt=""><span class="centered">OUR VISION</span></a></li>
-              <li><a href="#values" data-toggle="tab"><img src="img/skmenubg.png" onmouseover="this.src='img/skmenubgh.png';" onmouseout="this.src='img/skmenubg.png';" alt=""><span class="centered">OUR VALUES</span></a></li>
+            <ul class="nav nav-tabs bgs">
+              <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="" data-target="#mission">OUR MISSION</a></li>
+              <li class="nav-item"><a class="nav-link" href="" data-target="#vision" data-toggle="tab">OUR VISION</a></li>
+              <li class="nav-item"><a class="nav-link" href="" data-target="#values" data-toggle="tab">OUR VALUES</a></li>
             </ul>
 
 
             <!-- Tab panes -->
             <div class="tab-content">
-              <div id="mission" class="tab-pane fade">
+              <div role="tabpanel" id="mission" class="tab-pane fade show active">
                 <div>
-                    <img src="img/Mission.jpg" alt="Our Mission">
-                  </div>
-                <p> To be the world's premier IT solution, consultancy, management and technical services firm delivering end-to-end innnovative solutions that prorvide superior values to our clients.</p>
+                    <img class="img-fluid" src="img/Mission.jpg" alt="Our Mission">
                 </div>
-              <div id="vision" class="tab-pane fade">
+                <p> To be the world's premier IT solution, consultancy, management and technical services firm delivering end-to-end
+                  innnovative solutions that prorvide superior values to our clients.</p>
+                </div>
+              <div role="tabpanel" id="vision" class="tab-pane fade">
                 <div>
-                  <img src="img/vision.jpg" alt="Our Vision">
+                  <img class="img-fluid" src="img/vision.jpg" alt="Our Vision">
                 </div>
                 <p>Providing solutions for a more connected, sustainable world.</p>
               </div>
-              <div id="values" class="tab-pane fade">
+              <div role="tabpanel" id="values" class="tab-pane fade">
                 <div>
-                  <img src="img/goal.jpg" alt="our goals">
+                  <img class="img-fluid" src="img/goal.jpg" alt="our goals">
                 </div>
-                <p>Our values stand on a foundation of SAFETY and INTEGRITY, PEOPLE are the heart of our business, CLIENTS are our valued partners, PERFORMANCE excellence is our commitment,profitable GROWTH is an imperative.</p>
+                <p>Our values stand on a foundation of <b>safety</b> and <b>integrity</b>, <b>people</b> are the heart of our business, <b>clients</b> are our valued partners,
+                  <b>performance</b> excellence is our commitment,profitable <b>growth</b> is an imperative.</p>
               </div>
             </div>
            </div>
             </div>
         <div class="col-sm-6">
           <p>IT MANAGED SERVICES<span class="fl-right">79%</span></p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="width:79%">
+          <div class="progress" style="height: 7px">
+            <div class="progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="height: 7px; width:79%">
             </div>
           </div>
           <p>VOICE SOLUTIONS<span class="fl-right">90%</span></p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+          <div class="progress" style="height: 7px">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="height: 7px; width:90%">
             </div>
           </div>
           <p>NETWORKING<span class="fl-right">69%</span></p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100" style="width:69%">
+          <div class="progress" style="height: 7px">
+            <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0" aria-valuemax="100" style="height: 7px; width:69%">
             </div>
           </div>
           <p>IT CONSULTANCY<span class="fl-right">92%</span></p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+          <div class="progress" style="height: 7px">
+            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="height: 7px; width:92%">
             </div>
           </div>
           <p>HARDWARE &AMP; SOFTWARE SALES &AMP; REPAIRS<span class="fl-right">92%</span></p>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width:92%">
+          <div class="progress" style="height: 7px">
+            <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="height: 7px; width:92%">
             </div>
           </div>
 
@@ -184,7 +173,12 @@
       <div class="row">
         <div class="col-lg-3 mb-3">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/team5.jpg" alt="Ayorinde Tosin">
+            <div class="view overlay hm-black-strong">
+              <img class="card-img-top img-fluid" src="img/team5.jpg" alt="Ayorinde Tosin">
+              <div class="mask flex-center">
+                <div class="white-text">Ayorinde Tosin</div>
+              </div>
+            </div>
             <div class="card-body">
               <h4 class="card-title">Founder</h4>
               <h6 class="card-subtitle mb-2 text-muted">Head Technical, Support</h6>
@@ -196,7 +190,12 @@
         </div>
         <div class="col-lg-3 mb-3">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/team6.jpg" alt="Akinbisodun Babatunde">
+            <div class="view overlay hm-black-strong">
+              <img class="card-img-top img-fluid" src="img/team6.jpg" alt="Akinbisodun Babatunde">
+              <div class="mask flex-center">
+                <div class="white-text">Akinbisodun Babatunde</div>
+              </div>
+            </div>
             <div class="card-body">
               <h4 class="card-title">Team Member</h4>
               <h6 class="card-subtitle mb-2 text-muted">Technical, Support</h6>
@@ -208,7 +207,12 @@
         </div>
         <div class="col-lg-3 mb-3">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/team7.jpg" alt="Adewole Olalekan">
+            <div class="view overlay hm-black-strong">
+              <img class="card-img-top img-fluid" src="img/team7.jpg" alt="Adewole Olalekan">
+              <div class="mask flex-center">
+                <div class="white-text">Adewole Olalekan</div>
+              </div>
+            </div>
             <div class="card-body">
               <h4 class="card-title">Trainee</h4>
               <h6 class="card-subtitle mb-2 text-muted">Technical, Support</h6>
@@ -220,7 +224,12 @@
         </div>
         <div class="col-lg-3 mb-3">
           <div class="card h-100 text-center">
-            <img class="card-img-top" src="img/team1.jpg" alt="Adewole Olalekan">
+            <div class="view overlay hm-black-strong">
+              <img class="card-img-top img-fluid" src="img/team1.jpg" alt="Adewole Olalekan">
+              <div class="mask flex-center">
+                <div class="white-text">Akinbisodun Babatunde</div>
+              </div>
+            </div>
             <div class="card-body">
               <h4 class="card-title">Trainee</h4>
               <h6 class="card-subtitle mb-2 text-muted">Technical, Support</h6>
@@ -250,8 +259,10 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <script>
-      $("#mission").c
+//      $("#mission").ready().css("display","block");
+        $("#mission").click().attr("src", "img/skmenubgh.png");
     </script>
 
   </body>
