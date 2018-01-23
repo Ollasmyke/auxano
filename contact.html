@@ -8,27 +8,31 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AUXANO SOLUTIONS TECHNOLOGY</title>
+    <title>Contact Us | Auxano</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="vendor/bootstrap/css/mdb.css">
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/custom_auxano.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
             <img src="img/ast.png" style="max-width: 50px; max-height: 50px" /> &nbsp; &nbsp;
-            <a class="navbar-brand" href="index.html">AUXANO SOLUTIONS TECHNOLOGY</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">AUXANO SOLUTIONS TECHNOLOGY</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -36,13 +40,17 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="products.html">Products</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,35 +59,49 @@
 
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Contact Details
-        </h1>
+        <br><br />
 
         <!-- Content Row -->
         <div class="row">
             <!-- Map Column -->
-            <div class="col-lg-6 mb-4">
+            <div class="col-lg-8 mb-4">
                 <!-- Embedded Google Map -->
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3783182154257!2d3.3364995144225524!3d6.599817695227204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9187ff5ce08f%3A0xd1ff1fff6f35a7ef!2s21+Abeokuta+St%2C+Ikeja!5e0!3m2!1sen!2sng!4v1515678866294"
-                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                Contact Details Column -->
-                <div class="col-lg-6 mb-4">
-                    <h3>Contact Us</h3>
-                    <p>
-                        <abbr title="Phone">A</abbr>: Lagos
-                    </p>
-                    <p>
-                        <abbr title="Phone">P</abbr>: (123) 456-7890
-                    </p>
-                    <p>
-                        <abbr title="Email">E</abbr>:
-                        <a href="mailto:name@example.com">name@example.com
-            </a>
-                    </p>
-                    <p>
-                        <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-                    </p>
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-lg-4 mb-4">
+                <div class="col-sm-12">
+                    <div class="single_contact_info">
+                        <div class="single_info_icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="single_info_text">
+                            <h3>MAIL US</h3>
+                            <p>info@auxanosolutions.net</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single_contact_info">
+                        <div class="single_info_icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div class="single_info_text">
+                            <h3>CALL US</h3>
+                            <p>08062218546</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="single_contact_info">
+                        <div class="single_info_icon">
+                            <i class="fa fa-clock-o"></i>
+                        </div>
+                        <div class="single_info_text">
+                            <h3>WORK HOUR</h3>
+                            <p>Mon - Fri: 8:00Am - 5:00Pm</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -129,17 +151,17 @@
 
         <!-- Footer -->
         <footer>
-            <div class="container">
+            <div class="container ">
                 <p>&copy; 2017 AUXANO SOLUTIONS TECHNOLOGY. All Rights Reserved.</p>
-                <ul class="list-inline">
-                    <li class="list-inline-item">
-                        <a href="#">Privacy</a>
+                <ul class="list-inline ">
+                    <li class="list-inline-item ">
+                        <a href="# ">Privacy</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a href="#">Terms</a>
+                    <li class="list-inline-item ">
+                        <a href="# ">Terms</a>
                     </li>
-                    <li class="list-inline-item">
-                        <a href="#">FAQ</a>
+                    <li class="list-inline-item ">
+                        <a href="# ">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -149,6 +171,8 @@
         <script src="vendor/jquery/jquery.min.js"></script>
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+        <!-- Contact form JavaScript -->
+        <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <script src="js/jqBootstrapValidation.js"></script>
         <script src="js/contact_me.js"></script>
 
