@@ -131,3 +131,12 @@ article p {
     float: left;
     width: 80%;
 }
+
+.map_canvas_icon{
+    padding-top: 10px;
+}
+
+.map_canvas_icon h2{
+    padding: 25px;
+    text-align: center;
+}
