@@ -1,3 +1,10 @@
+$("#message").focusin(function () {
+    $("#messageLabel").css("color","#4285f4");
+});
+$("#message").focusout(function () {
+    $("#messageLabel").css("color","#000000");
+});
+
 $(function() {
 
   $("#contactForm input,#contactForm textarea").jqBootstrapValidation({

@@ -140,3 +140,17 @@ article p {
     padding: 25px;
     text-align: center;
 }
+textarea:focus{
+    border: 3px solid #4285f4 !important;
+    /*border-bottom-color: #4285F4;*/
+}
+
+.spec .control-group .controls input{
+    margin-bottom: 5px;
+}
+.spec .control-group .controls textarea{
+    height: 200px;
+}
+.col-sm-8 h3{
+    margin-top: 50px;
+}
