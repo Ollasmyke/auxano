@@ -154,3 +154,18 @@ textarea:focus{
 .col-sm-8 h3{
     margin-top: 50px;
 }
+
+@media (max-width: 350px) {
+    .bgs .nav-item .nav-link {
+        font-size: 50%;
+        width: 70px;
+        height: 40px;
+        margin-right: 15px;
+        text-align: center
+    }
+    .companyimg {
+        background-image: url("../img/networking.png");
+        background-size: contain;
+        background-repeat: no-repeat
+    }
+}
