@@ -1,3 +1,8 @@
+body {
+    background-image: url("../img/2060021674-white-background-image-20.jpg");
+    background-attachment: fixed;
+}
+
 .col-sm-6 .progress-bar {
     background-color: #ff7200
 }
@@ -132,26 +137,29 @@ article p {
     width: 80%;
 }
 
-.map_canvas_icon{
+.map_canvas_icon {
     padding-top: 10px;
 }
 
-.map_canvas_icon h2{
+.map_canvas_icon h2 {
     padding: 25px;
     text-align: center;
 }
-textarea:focus{
+
+textarea:focus {
     border: 3px solid #4285f4 !important;
     /*border-bottom-color: #4285F4;*/
 }
 
-.spec .control-group .controls input{
+.spec .control-group .controls input {
     margin-bottom: 5px;
 }
-.spec .control-group .controls textarea{
+
+.spec .control-group .controls textarea {
     height: 200px;
 }
-.col-sm-8 h3{
+
+.col-sm-8 h3 {
     margin-top: 50px;
 }
 
